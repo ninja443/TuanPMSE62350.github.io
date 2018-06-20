@@ -1,0 +1,506 @@
+h1 {
+    /*23px/16px=1.4375em*/
+    color: red;
+    font-size: 1.4375em;
+}
+
+h3{
+      /*21px/16px=1.3125em*/
+ font-size: 1.3125em;    
+}
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-weight: bold;
+    color: #fff;
+    background-image: url('/img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10px 100px 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #ccc
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: hotpink;
+}
+
+header h1{
+    margin-top: 100px;
+}
+
+header > h3{
+    font-style: italic;
+}
+
+/*Format for top navigation*/
+
+#main_nav li{
+    list-style-type: none;
+    margin-left: 15px;
+    display: inline;
+}
+#main_nav li a{
+    font-weight: normal;
+}
+
+/*Class Link_button */
+
+.link_button{
+    border: 1px solid #6ac4bc;
+    background-color: #6ac4bc;
+    color #000;
+    padding: 5px;
+    
+}
+.link_button:hover{
+    text-decoration: none;
+    border-color: #ccc;
+}
+
+#intro_me{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#intro_me a{
+    display: inline-block;
+    margin-top: 20px;
+}
+#intro_me > img {
+    height: 150px;
+    border-radius: 50%;
+/*    border-radius: 20px 30px; 20px; 30px; */
+/*
+    display: inline-block;
+    vertical-align: middle;    
+*/
+    
+}
+#intro_me > div, #intro_me > img {
+    display: inline-block;
+    vertical-align: middle;   /* Dùng để căn chỉnh giữa các phần tử có cùng thuộc tính này */
+}
+
+/* Format for my_service section*/
+section#my_service{
+    margin-bottom: 20px;
+}
+#my_service > h2{
+    text-align: center;
+    background-image: url('/img/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    font-size: 1.875em;
+    line-height: 130px;
+    
+}
+/*
+#my_service > h4{
+    
+}
+*/
+
+/*Fornat for project*/
+
+.project
+{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    width: 70%;
+    
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+.project li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.project img{
+    height: 150px;
+    vertical-align: middle;
+    
+}
+.project > div{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.project ul{
+    line-height: 25px;
+    text-indent: 25px;
+    
+}
+
+/*Experience*/
+#work{
+            border: 1px solid blue;
+            margin: 100px auto;
+             border-spacing: 0; 
+        }
+        #work thead tr th{
+            border-bottom: 2px solid blue;
+            padding: 10px;
+            background: orange;
+           
+        }
+/*
+        #work thead tr th:first-child {
+            border-radius: 20px 0 0 0;
+        }
+        #work thead tr th:last-child {
+            border-radius: 0 20px 0 0;
+        }
+        Chống tràn khi bo gốc
+*/
+        #work tbody tr td{
+            padding: 10px;
+        }
+        #work tbody tr:nth-child(even){
+            background-color: azure;
+        }
+        #work tbody tr:nth-child(odd){
+            background-color: bisque;
+        }
+        #work tbody tr:hover{
+            background-color: cadetblue;
+        }
+        #work tfoot td{
+            text-align: center;
+            background-color: darkorange;
+        }
+        #work {
+            border-radius: 20px 20px 0px 0px;
+          overflow: hidden;  /* Chống tràn khi bo gốc */
+        }
+    
+        
+        #project {
+            border: 1px solid blue;
+            margin: 100px auto;
+             border-spacing: 0; 
+        }
+        
+        #project thead tr th{
+            border-bottom: 2px solid blue;
+            padding: 10px;
+            background: orange;
+           
+        }
+        #project tbody tr td{
+            padding: 10px;
+        }
+        #project tfoot td{
+            text-align: center;
+            background-color: darkorange;
+        }
+        
+        #project{
+            border-radius: 20px 20px 0 0;
+            overflow: hidden;
+        }
+        #project tbody tr td:nth-child(odd){
+            background-color: aqua;
+        }
+        
+
+/*Project*/
+#main_wrapper{
+    
+    width: 95%;
+    margin: auto;
+    background: red;
+}
+
+#left_col{
+    width: 70%;
+    background: ;
+    float: left;
+    display: inline-block;
+}
+#right_col{
+    width: 25%;
+    background: ;
+    float: right;
+}
+
+.project1
+{
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #888;
+    width: 45%;
+    display: inline-block;
+    
+   
+    
+}
+.project1 li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.project1 img{
+    height: 200px;
+    width: 150px;
+    vertical-align: middle;
+    
+}
+.project1 > div{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.project1 ul{
+    line-height: 25px;
+    text-indent: 25px;
+    
+}
+
+
+#right_title{
+    color: black;
+    text-align: center;
+}
+
+#right_col li{
+    list-style-type: decimal;
+    list-style-position: inside;
+    font-size: 20px;
+    text-indent: 55px;
+        
+}
+
+
+
+
+
+/*CONTACT*/
+#contact_form{
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 12px #ccc;
+}
+#logo_title{
+    width: 100%;
+    height: 50px;
+    background-color: #3ac162;
+    margin-bottom: 30px;
+    padding: 0;
+    
+}
+
+fieldset{
+    border: 0;
+    
+}
+
+legend{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+label.light{
+    display: inline;
+    margin-right: 15px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='url'],
+textare,
+select{
+    border: 0;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background: #e8eeef;
+    margin-bottom: 30px;
+}
+input[type='radio'],
+intput[type='checkbox']{
+    margin-bottom: 30px;
+}
+
+button[type='submit'],
+button[type='reset'] {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+button[type='submit']{
+    color: #fff;
+    background: #3ac162;
+    border: 1px solid #3ac162;
+    
+    
+}
+
+button[type='reset']{
+    color: #3ac162;
+    background: #ebebeb;
+    border: 1px solid #ebebeb;
+    
+    
+    
+    
+}
+
+.number{
+    background: #5fcf80;
+    color: firebrick;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;border-radius: 50%;
+}
+address{
+    background: greenyellow;
+    border-radius: 50%;
+    font-size: 26px;
+    color: firebrick;
+    font-weight: bold;
+    position: absolute;
+    right: 280px;
+    top: 360px;
+    height: 40px;
+    line-height: 40px;
+       
+}
+#side_contact{
+    position: fixed;
+    bottom: 270px;
+}
+.follow_me{
+    display: block;
+    color: darkslategrey;
+    border: 1px solid blue;
+    width: 150px;
+    background-color: greenyellow;
+    font-weight: bolder;
+    border-radius: 0px 15px 0 0;
+    overflow: hidden;
+}
+#fbc {
+    color: blue;
+    
+}
+#ggc {
+    color: red;
+}
+.fbc{
+  display: block;
+    border: 1px solid blue;
+    width: 150px;
+    background-color: aqua;
+    
+}
+.ggc{
+    border: 1px solid blue;
+    width: 150px;
+    background-color: pink;
+    border-radius: 0 0 15px 0px;
+}
+#foot div i{
+    border: 1px solid black;
+    background-color: #ccc;
+}
+
+
+
+/*Footer*/
+ 
+#foot a{
+    text-decoration: none;
+    
+    font-style:oblique;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+#fb {
+    color: blue;
+}
+#gg {
+    color: green;
+}
+
+#foot{
+    text-align: center;
+    
+}
+#foot p{
+    display: inline-block;
+    margin-top: 0;
+}
+#foot p i{
+    border: 1px solid black;
+}
+
+#foot span{
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body{ 
+   font-family: 'Indie Flower', cursive;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+ #d1 li {
+    float: left;
+    
+}
+
+#d1 {
+    margin-left:500px;
+ 
+}
+
+nav{
+    text-align: center;
+}
