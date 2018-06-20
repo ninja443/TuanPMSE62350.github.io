@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 Hello World
 
 thêm dòng mới nè
+=======
+Hello Motherfucker
+
+Buscu
+
+>>>>>>> 56367e6d3ec0a0d3113d97a958ae06c46b48173e
